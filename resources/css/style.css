@@ -1,0 +1,287 @@
+/* ----BASICS STARTS----   */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}   
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*    -----BASICS END---------   */
+
+
+
+/*    ------HEADER SECTION STARTS----    */
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)), url(/resources/images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.it-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 200%;
+    font-weight: 200;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid cyan;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: cyan;
+    color: black;
+    margin-right: 15px;
+}
+
+.btn-dull:link,
+.btn-dull:visited{
+    color: cyan;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: darkcyan;
+    color: white;
+    border:1px solid darkcyan;
+    transform: scale(1.1);
+}
+
+.logo{
+    margin-top: 10px;
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    margin-top: 35px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid cyan;
+    padding-bottom: 8px;
+
+}
+
+/*  ----HEADER SECTION ENDS-----    */
+
+
+/*    ----- SECTION DESCRIPTION (SECTION-DESC) STARTS------    */
+
+.section-desc{
+    border-top: 5px solid darkcyan;
+    background-color: rgba(3, 37, 37, 0.651);
+    width: 100%;
+    height: 80vh;
+}
+
+.my-img{
+    position: relative;
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 140%;
+    transform: translate(0%,-40%);
+    border-radius: 10%;
+}
+
+.my-img:hover{
+    opacity: 0.7;
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    top: 140%;
+    transform: translate(0%,-40%);
+    border-radius: 10%;
+}
+
+.desc-head{
+    text-align: right;
+    color: black;
+    margin-top: 40px;
+}
+
+.about{
+    
+    border-bottom: 10px solid black; 
+    font-size: 200%;
+    font-weight: 200;
+    text-transform: uppercase;;
+    letter-spacing: 1px;
+}
+
+.desc-body{
+    margin-top:5%;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 150%;
+    font-weight: 300;
+    color: rgb(12, 12, 12);
+    text-align: justify;
+}
+
+
+
+/*  --------SECTION DESCRIPTION (SECTION-DESC) ENDS---------   */
+
+
+/*  -----SECTION-PROJECTS STARTS ----   */
+
+.section-projects{
+    border-top: 5px solid darkcyan;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.project-images{
+    list-style: none;
+    width: 100%;
+    background-color: black;
+}
+
+.project-images li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.imagefig{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+
+.imagefig img{
+    opacity: 0.7;
+    width: 100%;
+    height:auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.imagefig img:hover{
+    opacity: 1.1;
+    transform: scale(1.1);
+}
+
+
+
+/* -------SECTION -PROJECTS ENDS------    */
+
+
+/*  -----FOOTER STARTS------   */
+
+.footer{
+    padding: 50px;
+    background-color: rgb(27, 27, 27);
+    border-top: 5px solid darkcyan;
+}
+
+.contact{
+    text-align: center;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.contact span{
+    
+    border-bottom: 5px solid darkcyan;
+}
+
+.contact-links{
+    list-style: none;
+    align-content: center;
+}
+
+.contact-links li{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.media{
+    height: 50px;
+    width:auto;
+    margin-right: 15px;
+}
+
+
+.media:link,
+.media:visited{
+    height: 50px;
+    width:auto;
+    margin-right: 20px;
+}
+
+
+.media:active,
+.media:hover{
+    transform: scale(1.3);
+
+}
+
+
+
+/*   -----FOOTER ENDS-------   */
