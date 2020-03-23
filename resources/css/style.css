@@ -385,6 +385,16 @@ h1{
 }
 
 @media only screen and (min-width:680px) and (max-width:870px){
+    
+    .my-img{
+    position: relative;
+    height: 20%;
+    width: 15%;
+    position: absolute;
+    top: 120%;
+    transform: translate(20%,-40%);
+    border-radius: 10%;
+}
 
     .contact-links li{
         margin-top: 10px;
@@ -411,6 +421,16 @@ h1{
 
 
 @media only screen and (max-width:680px){
+    
+    .my-img{
+    position: relative;
+    height: 15%;
+    width: 15%;
+    position: absolute;
+    top: 120%;
+    transform: translate(20%,-40%);
+    border-radius: 10%;
+}
 
 
     h1{
