@@ -132,7 +132,7 @@ h1{
     border-top: 5px solid darkcyan;
     background-color: rgba(3, 37, 37, 0.651);
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .my-img{
