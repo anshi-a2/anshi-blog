@@ -44,7 +44,7 @@ header{
 
 .it-text-box{
     position: absolute;
-    width: 100%;
+    width: 1140PX;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -359,7 +359,7 @@ h1{
       /* header starts  */
 
     .it-text-box{
-        width: auto;
+        width: 100vw;
     }
 
 
@@ -408,6 +408,12 @@ h1{
 }
 
 @media only screen and (min-width:680px) and (max-width:870px){
+    
+     /* header starts  */
+
+    .it-text-box{
+        width: auto;
+    }
     
     .my-img{
     position: relative;
